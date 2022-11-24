@@ -1,0 +1,64 @@
+
+.urlForm {
+    border:black; 
+    border-width:2px; 
+    border-style:solid;
+    height: 500px;
+    width: 400px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.input-url {
+    height: 40px;
+    margin-left: 50px;
+}
+
+.short-url {
+    margin-top: 30px;
+}
+
+span {
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+button {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 800px) { 
+    button {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .urlForm {
+        border:black; 
+        border-width:2px; 
+        border-style:solid;
+        height: 400px;
+        width: 300px;
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 520px) { 
+    button {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .urlForm {
+        border:black; 
+        border-width:2px; 
+        border-style:solid;
+        height: 350px;
+        width: 250px;
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-right: 15%;
+    }
+}

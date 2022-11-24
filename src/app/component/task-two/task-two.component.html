@@ -1,0 +1,21 @@
+<mat-card class="urlForm">
+  <div>
+    <input class="input-url" #url />
+    <button mat-raised-button color="primary" (click)="shortUrl(url.value)">
+      Shorten
+    </button>
+  </div>
+
+  <div class="short-url">
+    <p class="input-url">
+      <span>
+        Short url: <a routerLink="#"> {{ shortUrlFirst }} </a>
+      </span>
+    </p>
+    <p class="input-url">
+      <span>
+        Short url2: <a routerLink="#"> {{ shortUrlSecond }} </a>
+      </span>
+    </p>
+  </div>
+</mat-card>
